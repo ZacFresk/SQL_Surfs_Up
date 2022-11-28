@@ -8,9 +8,12 @@ W. Avy wanted the compare two specific months, June and December. These two mont
 
 We use SQL Alchemy to use the power that is in this tool to see if the temperature review can scale as much as we need it to. Refactoring the already processed code allows us to perform a larger analysis in a small amount time.  
 
+
 ## Weather Results
 
 The data for June and December were converted to a dataframe. Then we put the dataframe into a statistical analysis using the .describe function.
+
+![june_vs_december](https://user-images.githubusercontent.com/107363203/204180847-0897b02d-9d3b-4dec-beb0-224ddc4dc2f3.png)
 
 The differences between the weather of June and December were: 
   - June has more data collected over December
